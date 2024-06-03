@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3437384bc23692743b94f45ecc7ce85a, type: 3}
+  m_Name: HealPotion
+  m_EditorClassIdentifier: 
+  Name: Heal Potion
+  Icon: {fileID: 21300000, guid: 1f48f19cb3c55f848b84c84ec9920e2d, type: 3}
+  Prefab: {fileID: 8146906672343820279, guid: a05a5f62a9a9f4d4d985e019650b448e, type: 3}
+  Mesh: {fileID: 2534964839176971238, guid: 1bc0cb234257c8848bacc96e6750070b, type: 3}
+  Material: {fileID: 2100000, guid: 6ff1989a96b0a0c4daff47402a546506, type: 2}
+  OnUse:
+  - rid: 1983132286620008466
+  references:
+    version: 2
+    RefIds:
+    - rid: 1983132286620008466
+      type: {class: Heal, ns: , asm: Assembly-CSharp}
+      data:
+        name: Heal
+        HealAmount: 20
